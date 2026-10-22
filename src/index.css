@@ -1,0 +1,132 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Design system definition.
+ *
+ * Brand palette:
+ * - Light tint of Cobalt  -> --color-light-blue
+ * - Cobalt Bloom #4A6ED1  -> --color-moonstone
+ * - Tangerine #FF7A2A  -> --color-saffron (CTAs + small highlights only)
+ * - Midnight Navy #0B1020  -> --color-gunmetal (text + footer)
+ *
+ * All colors use oklch format.
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-light-blue: var(--light-blue);
+  --color-moonstone: var(--moonstone);
+  --color-saffron: var(--saffron);
+  --color-gunmetal: var(--gunmetal);
+  --color-surface: var(--surface);
+  --color-taupe: var(--taupe);
+  --font-heading: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Open Sans", ui-sans-serif, system-ui, sans-serif;
+}
+
+:root {
+  --radius: 0.75rem;
+  /* Brand palette */
+  --light-blue: oklch(0.94 0.03 266);
+  --moonstone: oklch(0.57 0.15 266);
+  --saffron: oklch(0.72 0.18 48);
+  --gunmetal: oklch(0.17 0.03 270);
+  /* Semantic tokens */
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.17 0.03 270);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.17 0.03 270);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.17 0.03 270);
+  --primary: oklch(0.72 0.18 48);
+  --primary-foreground: oklch(0.17 0.03 270);
+  --secondary: oklch(0.57 0.15 266);
+  --secondary-foreground: oklch(1 0 0);
+  --muted: oklch(0.965 0.01 266);
+  --muted-foreground: oklch(0.48 0.03 266);
+  --accent: oklch(0.94 0.03 266);
+  --accent-foreground: oklch(0.17 0.03 270);
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.984 0.003 247.858);
+  --border: oklch(0.92 0.01 266);
+  --taupe: oklch(0.7 0.04 40);
+  --surface: oklch(0.985 0.004 266);
+  --input: oklch(0.92 0.01 266);
+  --ring: oklch(0.57 0.15 266);
+}
+
+.dark {
+  --background: oklch(0.129 0.042 264.695);
+  --foreground: oklch(0.984 0.003 247.858);
+  --card: oklch(0.208 0.042 265.755);
+  --card-foreground: oklch(0.984 0.003 247.858);
+  --popover: oklch(0.208 0.042 265.755);
+  --popover-foreground: oklch(0.984 0.003 247.858);
+  --primary: oklch(0.929 0.013 255.508);
+  --primary-foreground: oklch(0.208 0.042 265.755);
+  --secondary: oklch(0.279 0.041 260.031);
+  --secondary-foreground: oklch(0.984 0.003 247.858);
+  --muted: oklch(0.279 0.041 260.031);
+  --muted-foreground: oklch(0.704 0.04 256.788);
+  --accent: oklch(0.279 0.041 260.031);
+  --accent-foreground: oklch(0.984 0.003 247.858);
+  --destructive: oklch(0.704 0.191 22.216);
+  --destructive-foreground: oklch(0.984 0.003 247.858);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.551 0.027 264.364);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-heading);
+  }
+}

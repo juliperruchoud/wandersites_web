@@ -1,0 +1,63 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images"
+public_folder: "/images"
+
+collections:
+  - name: "legal"
+    label: "Contenido Legal y Configuración"
+    files:
+      - file: "src/content.json"
+        label: "Marco Legal y Políticas"
+        name: "content"
+        fields:
+          - label: "Responsable Legal"
+            name: "responsable"
+            widget: "object"
+            fields:
+              - { label: "Nombre o Razón Social", name: "nombre", widget: "string" }
+              - { label: "CUIT", name: "cuit", widget: "string" }
+              - { label: "Ciudad y Provincia", name: "ciudad", widget: "string" }
+              - { label: "Email de contacto", name: "email", widget: "string" }
+          - label: "Enlace Defensa del Consumidor"
+            name: "defensaConsumidorUrl"
+            widget: "string"
+          - label: "Política de Privacidad"
+            name: "privacidad"
+            widget: "object"
+            fields:
+              - { label: "Título SEO", name: "metaTitle", widget: "string" }
+              - { label: "Descripción SEO", name: "metaDescription", widget: "string" }
+              - { label: "Título Principal", name: "titulo", widget: "string" }
+              - { label: "Subtítulo", name: "subtitulo", widget: "string" }
+              - { label: "Última Actualización", name: "ultimaActualizacion", widget: "string" }
+              - label: "Secciones"
+                name: "secciones"
+                widget: "list"
+                fields:
+                  - { label: "Título", name: "titulo", widget: "string" }
+                  - { label: "Contenido", name: "contenido", widget: "text" }
+          - label: "Términos y Condiciones"
+            name: "terminos"
+            widget: "object"
+            fields:
+              - { label: "Título SEO", name: "metaTitle", widget: "string" }
+              - { label: "Descripción SEO", name: "metaDescription", widget: "string" }
+              - { label: "Título Principal", name: "titulo", widget: "string" }
+              - { label: "Subtítulo", name: "subtitulo", widget: "string" }
+              - { label: "Última Actualización", name: "ultimaActualizacion", widget: "string" }
+              - label: "Secciones"
+                name: "secciones"
+                widget: "list"
+                fields:
+                  - { label: "Título", name: "titulo", widget: "string" }
+                  - { label: "Contenido", name: "contenido", widget: "text" }
+          - label: "Aviso de Cookies"
+            name: "cookieBanner"
+            widget: "object"
+            fields:
+              - { label: "Mensaje", name: "mensaje", widget: "text" }
+              - { label: "Texto del Botón", name: "boton", widget: "string" }
+              - { label: "Texto del Enlace", name: "enlaceTexto", widget: "string" }

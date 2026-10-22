@@ -1,0 +1,6 @@
+{
+  "name": "Wandersites — Diseño Web para Alojamientos y Negocios",
+  "description": "Diseñamos páginas web modernas para alojamientos turísticos, cabañas, hoteles y negocios. Landing pages, formularios y Web Check-in online.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

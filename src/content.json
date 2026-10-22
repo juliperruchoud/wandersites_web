@@ -1,0 +1,82 @@
+{
+  "responsable": {
+    "nombre": "Wandersites",
+    "email": "wandersites23@gmail.com"
+  },
+  "defensaConsumidorUrl": "https://www.argentina.gob.ar/produccion/defensadelconsumidor/formulario",
+  "privacidad": {
+    "metaTitle": "Política de Privacidad | Wandersites",
+    "metaDescription": "Conocé cómo cuidamos tus datos personales y respetamos la Ley 25.326 en Wandersites.",
+    "titulo": "Política de Privacidad",
+    "subtitulo": "Transparencia y cuidado en el tratamiento de tus datos personales, de acuerdo con la legislación argentina.",
+    "ultimaActualizacion": "Octubre 2026",
+    "secciones": [
+      {
+        "titulo": "1. ¿Quién es el responsable del tratamiento de datos?",
+        "contenido": "El sitio web es gestionado bajo la marca Wandersites. Para cualquier duda o consulta sobre la privacidad y el tratamiento de tus datos personales, podés comunicarte directamente con nosotros por correo electrónico a wandersites23@gmail.com o a través de WhatsApp."
+      },
+      {
+        "titulo": "2. ¿Cómo funciona nuestra web y qué datos recolectamos?",
+        "contenido": "Esta web tiene carácter informativo y de presentación de servicios. No cuenta con formularios de contacto automáticos, pasarelas de pago ni cuentas de usuario. Por lo tanto, la web de Wandersites no recolecta ni almacena datos personales por sí misma.\n\nTodas las consultas se realizan de forma voluntaria a través de la aplicación WhatsApp mediante el enlace directo provisto en el sitio."
+      },
+      {
+        "titulo": "3. Uso de los datos enviados por WhatsApp",
+        "contenido": "Los datos que decidas compartirnos a través de WhatsApp (por ejemplo, tu nombre, número de teléfono y detalles de tu proyecto o alojamiento) se utilizan exclusivamente para responder tus dudas, coordinar una propuesta y prestarte el asesoramiento solicitado. No vendemos, no cedemos ni utilizamos tus datos para enviar spam o publicidad no autorizada."
+      },
+      {
+        "titulo": "4. Servicios de terceros (WhatsApp / Meta)",
+        "contenido": "Al presionar en los botones de contacto de WhatsApp, la comunicación se canaliza a través de dicha plataforma, propiedad de Meta Platforms Inc. El tratamiento técnico de tus mensajes, llamadas y números de teléfono se rige de forma independiente por las Políticas de Privacidad y Términos de Servicio de WhatsApp."
+      },
+      {
+        "titulo": "5. Política de cookies y analítica",
+        "contenido": "En Wandersites no utilizamos cookies de seguimiento publicitario ni herramientas invasivas de analítica que perfilen tu navegación. Únicamente se emplean cookies técnicas y de almacenamiento local estrictamente necesarias para el correcto funcionamiento de la página (por ejemplo, recordar si aceptaste el aviso informativo)."
+      },
+      {
+        "titulo": "6. Tus derechos de acceso, rectificación y supresión",
+        "contenido": "Tenés derecho a solicitar el acceso, la actualización, rectificación o eliminación definitiva de cualquier dato personal que nos hayas facilitado en nuestras conversaciones. Podés ejercer estos derechos en cualquier momento escribiéndonos a wandersites23@gmail.com o mediante WhatsApp indicando en el asunto \"Protección de Datos Personales\" junto a tu solicitud."
+      },
+      {
+        "titulo": "7. Marco legal y leyenda oficial AAIP (Ley 25.326)",
+        "contenido": "El titular de los datos personales tiene la facultad de ejercer el derecho de acceso a los mismos en forma gratuita a intervalos no inferiores a seis meses, salvo que se acredite un interés legítimo al efecto conforme lo establecido en el artículo 14, inciso 3 de la Ley Nº 25.326.\n\nLa AGENCIA DE ACCESO A LA INFORMACIÓN PÚBLICA, en su carácter de Órgano de Control de la Ley Nº 25.326, tiene la atribución de atender las denuncias y reclamos que se interpongan con relación al incumplimiento de las normas sobre protección de datos personales."
+      }
+    ]
+  },
+  "terminos": {
+    "metaTitle": "Términos y Condiciones | Wandersites",
+    "metaDescription": "Términos y condiciones de contratación de los servicios de diseño web y desarrollo de Wandersites.",
+    "titulo": "Términos y Condiciones de Servicio",
+    "subtitulo": "",
+    "ultimaActualizacion": "Octubre 2026",
+    "secciones": [
+      {
+        "titulo": "1. Objeto y descripción de los servicios",
+        "contenido": "Wandersites brinda servicios independientes de diseño y desarrollo de sitios web para alojamientos turísticos, prestadores de servicios y emprendimientos. Nuestros paquetes principales son:\n\n• Paquete Básico (Landing Page): Sitio web de una sola página de hasta 3 secciones, diseño responsive adaptable a celulares, galería de fotos, botón directo a WhatsApp, ubicación Google Maps, SEO básico y publicación online.\n\n• Paquete Estándar (Más herramientas para tu negocio): Todo lo de Basic más hasta 5 secciones, formulario de contacto, hasta 6 tipos de servicios (o habitaciones para alojamientos), una integración iCal para alojamientos y configuración de dominio propio (costo del dominio no incluido).\n\n• Paquete Premium (Tu web, bajo tu control): Todo lo de Standard más desarrollo de sitio autoadministrable, edición de textos e imágenes desde un panel de gestión, diseño más personalizado, capacitación básica de uso y funciones adicionales a evaluar.\n\n• Servicio independiente Web Check-in: Formulario digital online para registro previo de pasajeros con envío de aviso por email y volcado automático en Google Sheets, contratable de manera autónoma sin necesidad de tener página web."
+      },
+      {
+        "titulo": "2. Plazos de entrega orientativos",
+        "contenido": "Los tiempos de diseño y puesta en marcha son estimativos y se acuerdan al momento de confirmar el presupuesto. El inicio del cómputo de los plazos está condicionado a la entrega por parte del cliente de todo el material indispensable para trabajar (textos base, fotografías en buena calidad, logotipo, tarifas y datos de contacto)."
+      },
+      {
+        "titulo": "3. Mantenimiento, actualizaciones y dominios",
+        "contenido": "Los planes de Wandersites se abonan por única vez y no exigen el pago de un abono mensual obligatorio por el servicio de diseño. Las modificaciones posteriores de diseño o nuevas funcionalidades se presupuestan de manera individual a solicitud del cliente.\n\nLos costos de registro o renovación anual de nombres de dominio (.com, .com.ar u otros) y servicios externos son responsabilidad del titular del negocio."
+      },
+      {
+        "titulo": "4. Propiedad del contenido y de las imágenes",
+        "contenido": "El cliente manifiesta ser titular legítimo o contar con las autorizaciones pertinentes sobre todos los textos, imágenes, marcas y logotipos que suministre para la confección del sitio web. Wandersites no asume responsabilidad frente a reclamos de terceros por derechos de autor respecto al material aportado por el cliente.\n\nUna vez finalizado y abonado el trabajo, el cliente es dueño del sitio web y de sus accesos correspondientes."
+      },
+      {
+        "titulo": "5. Cancelación y rescisión del servicio",
+        "contenido": "Cualquiera de las partes puede cancelar el encargo antes del inicio de los trabajos. Si el cliente decidiera cancelar el proyecto una vez comenzada la etapa de diseño, los anticipos abonados cubrirán las horas de trabajo dedicadas hasta dicha fecha. No se realizarán reintegros sobre proyectos finalizados y entregados conforme a lo pactado."
+      },
+      {
+        "titulo": "6. Limitación de responsabilidad",
+        "contenido": "Wandersites se compromete a aplicar las mejores prácticas de diseño, seguridad y rendimiento web. Sin embargo, no se responsabiliza por interrupciones ajenas causadas por caídas de servidores de hosting externos, problemas de conectividad de proveedores de internet, fallas en la API de WhatsApp o Meta, ni por variaciones o decisiones de indexación que tome el motor de búsqueda de Google."
+      }
+    ]
+  },
+  "cookieBanner": {
+    "mensaje": "Este sitio web utiliza únicamente cookies técnicas necesarias para su correcto funcionamiento. No usamos cookies de seguimiento ni de publicidad.",
+    "boton": "Entendido",
+    "enlaceTexto": "Política de privacidad"
+  }
+}
